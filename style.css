@@ -20,7 +20,21 @@ header{
     font-weight: 500;
 }
 
+#site{
+    text-decoration: none;
+    background-color: #009dd1;
+    border-radius: 5px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
 
+#site:hover{
+    text-decoration: none;
+    color: blue;
+}
 
 nav{
     background-color:	#00BFFF	;
@@ -65,8 +79,4 @@ margin: 10px;
 
 .abas div:target{
     display: block;
-}
-
-a:focus{
-    color:blue
 }
