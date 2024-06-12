@@ -63,7 +63,7 @@ header{
 #site:hover{
     text-decoration:none;
     color: black;
-    transition: 10000ms;
+    transition: 250ms;
 }
 
 nav{
