@@ -11,21 +11,23 @@
 </head>
 <body>
 
-    <header> <div class="click"> 
+    <header> 
+        <div class="click"> 
             <img src="logo.png" id="logo" alt=" logo click saúde">
-        <h1>
-            CLICK SAÚDE
-        </h1>  </header>
-    </div>
+            <h1>
+                <a id="easter-egg" onclick="mouse.play();">CLICK</a> SAÚDE
+            </h1>  
+        </div>
+    </header>
 
     <div class="abas">
         <nav>
-            <a href="#inicio"> Início</a>
-            <a href="#aba1"> Objetivo </a>
-            <a href="#aba2"> Propósito </a>
-            <a href="#aba3"> Problema </a>
-            <a href="#aba5"> Acessibilidade </a>
-            <a href="#aba4"> Solução </a>
+            <a class="link-abas" href="#inicio"> Início</a>
+            <a class="link-abas" href="#aba1"> Objetivo </a>
+            <a class="link-abas" href="#aba2"> Propósito </a>
+            <a class="link-abas" href="#aba3"> Problema </a>
+            <a class="link-abas" href="#aba5"> Acessibilidade </a>
+            <a class="link-abas" href="#aba4"> Solução </a>
             
         </nav>
 
@@ -81,6 +83,9 @@
         </div>
 
     </div>
-
+<script type="text/javascript">
+    const mouse = new Audio();
+    mouse.src = "sound/mouse-click.wav";
+</script>
 </body>
 </html>
