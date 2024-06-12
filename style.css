@@ -2,13 +2,11 @@
 body{
     background-color: rgb(39, 37, 37);
     color: white;
-
 }
 
 #logo{
     animation: pulse infinite;
     animation-duration: 2s;
-
 }
 
 header{
@@ -19,17 +17,14 @@ header{
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-
 }
-
-
 
 #aba1{
     gap: 15px;
     background-color:rgb(77, 160, 70) ;
 }
 
-#aba1  img{
+#aba1 img{
     width: 300px;
 }
 
@@ -43,9 +38,9 @@ header{
 
 
 #inicio img{
-width: 100px;
-display: flex;
-align-items: center;
+    width: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .click{
@@ -68,11 +63,11 @@ align-items: center;
 #site:hover{
     text-decoration:none;
     color: black;
-
+    transition: 10000ms;
 }
 
 nav{
-    background-color:	#00BFFF;
+    background-color:#00BFFF;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -84,34 +79,31 @@ nav{
 
 .link-abas{
     text-decoration: none;
-    color:white;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     transition: 250ms;
 }
 
 .link-abas:hover{
-text-decoration: none;
-color: black;
-font-size: 40px;
-transition: 250ms;
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+    transition: 250ms;
 }
 
 .abas nav a {
- 
- display: inline-block;
-
+    display: inline-block;
 }
 
 
 .abas div{
-display: none;
-border: 3px solid rgba(177, 166, 166, 0.384);
-font-family: Arial, Helvetica, sans-serif;
-font-size: 30px; 
-border-radius: 20px;
-padding: 10px;
-margin: 10px;
-
+    display: none;
+    border: 3px solid rgba(177, 166, 166, 0.384);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px; 
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .abas div:target{

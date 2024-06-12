@@ -1,92 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <title> Apresentação </title>
-    <link rel="stylesheet" href="style.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <title> Apresentação </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <script src="index.js"></script>
+    </head>
+    <body>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <script src="index.js"></script>
-</head>
-<body>
+        <header> 
+            <div class="click"> 
+                <img src="img/logo.png" id="logo" alt="Logo click saúde" />
+                <h1>
+                    <a id="easter-egg" onclick="mouse.play();">CLICK</a> SAÚDE
+                </h1>  
+            </div>
+        </header>
 
-    <header> 
-        <div class="click"> 
-            <img src="logo.png" id="logo" alt=" logo click saúde">
-            <h1>
-                <a id="easter-egg" onclick="mouse.play();">CLICK</a> SAÚDE
-            </h1>  
-        </div>
-    </header>
+        <div class="abas">
+            <nav>
+                <a class="link-abas" href="#inicio"> Início</a>
+                <a class="link-abas" href="#aba1"> Objetivo </a>
+                <a class="link-abas" href="#aba2"> Propósito </a>
+                <a class="link-abas" href="#aba3"> Problema </a>
+                <a class="link-abas" href="#aba5"> Acessibilidade </a>
+                <a class="link-abas" href="#aba4"> Solução </a>
+            </nav>
 
-    <div class="abas">
-        <nav>
-            <a class="link-abas" href="#inicio"> Início</a>
-            <a class="link-abas" href="#aba1"> Objetivo </a>
-            <a class="link-abas" href="#aba2"> Propósito </a>
-            <a class="link-abas" href="#aba3"> Problema </a>
-            <a class="link-abas" href="#aba5"> Acessibilidade </a>
-            <a class="link-abas" href="#aba4"> Solução </a>
-            
-        </nav>
+            <div id="inicio">
+                <p> Click Saúde é um site que reúne informações sobre feiras e caravanas de saúde públicas, informações estas, que hoje são muito polarizadas.</p>
+                
+                <div id="users">
+                    <h2> Integrantes:</h2> 
+                    <p> <img src="img/user.png" alt="Imagem de representação dos integrantes"> Ana Beatriz Micalares  </p>
+                    <p> <img src="img/user.png" alt="Imagem de representação dos integrantes"> Antônio Marcos  </p>
+                    <p> <img src="img/user.png" alt="Imagem de representação dos integrantes"> Dennis Costa </p>     
+                    <p> <img src="img/user.png" alt="Imagem de representação dos integrantes">  Felipe Ribeiro  </p>
+                </div>
+            </div>
 
-        <div id="inicio">
-            <p> Click Saúde é um site que reúne informações sobre feiras e caravanas de saúde públicas, informações estas, que hoje são muito polarizadas.</p>
-            
-            <div id="users">
-                <h2>  Integrantes:</h2> 
-                <p> <img src="img/user.png" alt=""> Ana Beatriz Micalares  </p>
-                <p> <img src="img/user.png" alt=""> Antônio Marcos  </p>
-                <p> <img src="img/user.png" alt=""> Dennis Costa </p>     
-                <p> <img src="img/user.png" alt="">  Felipe Ribeiro  </p>
+            <div id="aba1">
+                <img src="img/ods3.jpg" alt="Imagem da ODS3 da ONU">
+                    <p>
+                        Garantir o acesso à saúde de qualidade e promover o bem-estar para todos, em todas as idades. <br> <br>
+                        3.d - Reforçar a capacidade de todos os países, particularmente os países em desenvolvimento, 
+                        para o alerta precoce, redução de riscos e gerenciamento de riscos nacionais e globais de saúde.
+                    </p>
+            </div>
+
+            <div id="aba2">
+                <h1> Por que esse projeto é necessário? </h1>
+                <p> 
+                    A saúde pública, atualmente, é uma das pautas mais importantes a serem promovidas na sociedade. 
+                    O próprio SUS, Organizações, o Ministério da Saúde, as secretarias de saúde e instituições trabalham 
+                    para garantir que toda a população tenha acesso a consultas, informações sobre doenças físicas e mentais e ao tratamento destas. 
+                    Com este intuito, há alguns anos, esses setores promovem feiras de saúde, caravanas e projetos 
+                    para facilitar o acesso a saúde pública para vários setores da população. <br> <br>
+                    Entretando, esses projetos gratuitos não são divulgados de forma eficiente, passando por 
+                    um problema que o filósofo francês Pierre Levy chama de “segundo dilúvio”, que consiste no alto número de informações polarizadas, 
+                    que não possuem uma conexão entre si, um verdadeiro mar de informações soltas. 
+                    Isso dificulta que as pessoas possam filtrar as informações necessárias de maneira eficaz, 
+                    pois as informações distribuídas não chegam a todos. <br> <br>
+                </p>
+            </div>
+
+            <div id="aba3">
+                <h1>Problema:</h1>
+                <p>Baixa quantidade de informações sobre caravanas, feiras e projetos de saúde pública, polarizadas entre si e difíceis de serem encontradas. Isso dificulta o acesso a serviços gratuitos de saúde pública por parte da população. Esse fenômeno é muito comum na tecnologia, que está cada vez mais integrada na área da saúde.</p>
+            </div>
+
+            <div id="aba4">
+                <h1>Solução: </h1>
+                <p> Uma página com o objetivo de reunir informações sobre estes serviços e apresentá-los de forma eficaz aos usuários. Um site organizacional trazendo uma conexão entre as informações, com a localização, órgãos que promovem, datas e serviços das caravanas. Procura promover ainda mais a tecnologia como suporte para saúde pública. <br> <br> 
+                    <a href="https://felipperibeiro.github.io/unijorge-web-project/" target="_blank" id="site"> Acesse  agora  o  CLICK SAÚDE </a>
+                </p>
+            </div>
+
+            <div id="aba5">
+                <h1> A Importância da Acessibilidade </h1>
+                    <p>  
+                        Acessibilidade Digital é a eliminação de barreiras na Web, garantindo que pessoas com deficiência possam usar ferramentas e recursos tecnológicos. O conceito pressupõe que os sites e portais sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas. <br> <br>
+                        A tecnologia assistiva é lei no Brasil, a Lei Brasileira de Inclusão, 13.146 de julho de 2015.
+                    </p>
             </div>
         </div>
 
-        <div id="aba1">
-            <img src="img/ods3.jpg" alt=""> 
-            
-                <p> 
-                    
-                    Garantir o acesso à saúde de qualidade e promover o bem-estar para todos, em todas as idades. <br> <br>
-                    3.d Reforçar a capacidade de todos os países, particularmente os países em desenvolvimento, para o alerta precoce, redução de riscos e gerenciamento de riscos nacionais e globais de saúde.
-                    
-                </p>
-            
-        </div>
-
-        <div id="aba2">
-            <h1> Por que esse projeto é necessário? </h1>
-            <p> A saúde pública, atualmente, é uma das pautas mais importantes a serem promovidas na sociedade. O próprio SUS, Organizações, o Ministério da Saúde, as secretarias de saúde e instituições trabalham para garantir que toda a população tenha acesso a consultas, informações sobre doenças físicas e mentais e ao tratamento destas. Com este intuito, há alguns anos, esses setores promovem feiras de saúde, caravanas e projetos para facilitar o acesso a saúde pública para vários setores da população. <br> <br>
-                Entretando, esses projetos gratuitos não são divulgados de forma eficiente, passando por um problema que o filosofo francês Pierre Levy chama de “segundo dilúvio”, que consiste no alto número de informações polarizadas, que não possuem uma conexão entre si, um verdadeiro mar de informações soltas. Isso dificulta que as pessoas possam filtrar as informações necessárias de maneira eficaz, pois as informações distribuídas não chegam a todos. <br> <br>
-                </p>
-        </div>
-
-        <div id="aba3">
-            <h1>Problema:</h1>
-            <p>Baixa quantidade de informações sobre caravanas, feiras e projetos de saúde pública, polarizadas entre si e difíceis de serem encontradas. Isso dificulta o acesso a serviços gratuitos de saúde pública por parte da população. Esse fenômeno é muito comum na tecnologia, que está cada vez mais integrada na área da saúde.</p>
-        </div>
-
-        <div id="aba4">
-            <h1>Solução: </h1>
-            <p> Uma página com o objetivo de reunir informações sobre estes serviços e apresentá-los de forma eficaz aos usuários. Um site organizacional trazendo uma conexão entre as informações, com a localização, órgãos que promovem, datas e serviços das caravanas. Procura promover ainda mais a tecnologia como suporte para saúde pública. <br> <br> 
-                <a href="https://felipperibeiro.github.io/unijorge-web-project/" target="_blank" id="site"> Acesse  agora  o  CLICK SAÚDE </a>
-            </p>
-        </div>
-
-        <div id="aba5">
-            <h1> A Importância da Acessibilidade </h1>
-                <p>  
-                    Acessibilidade Digital é a eliminação de barreiras na Web, garantindo que pessoas com deficiência possam usar ferramentas e recursos tecnológicos. O conceito pressupõe que os sites e portais sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas. <br> <br>
-                    A tecnologia assistiva é lei no Brasil, a Lei Brasileira de Inclusão, 13.146 de julho de 2015.
-                </p>
-        </div>
-
-    </div>
-<script type="text/javascript">
-    const mouse = new Audio();
-    mouse.src = "sound/mouse-click.wav";
-</script>
-</body>
+        <script type="text/javascript">
+            const mouse = new Audio();
+            mouse.src = "sound/mouse-click.wav";
+        </script>
+    </body>
 </html>
