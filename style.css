@@ -66,6 +66,10 @@ header{
     transition: 250ms;
 }
 
+#site:visited{
+    color: black;
+}
+
 nav{
     background-color:#00BFFF;
     display: flex;
