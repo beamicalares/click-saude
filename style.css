@@ -52,6 +52,7 @@ header{
 #site{
     text-decoration: none;
     background-color: rgb(48, 160, 160);
+    color: white;
     border-radius: 5px;
     font-size: 30px;
     display: flex;
@@ -67,7 +68,8 @@ header{
 }
 
 #site:visited{
-    color: black;
+    color: white;
+    transition: 250ms;
 }
 
 nav{
