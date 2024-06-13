@@ -62,7 +62,7 @@ header{
 }
 
 #site:hover{
-    text-decoration:none;
+    text-decoration: none;
     color: black;
     transition: 250ms;
 }
