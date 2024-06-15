@@ -65,7 +65,6 @@ header{
 }
 
 #site:hover{
-    text-decoration: none;
     color: black;
     transition: 250ms;
 }
@@ -78,12 +77,11 @@ header{
 nav{
     background-color:#00BFFF;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 20px;
     margin: 0;
-    gap: 50px;
     font-size: 30px;
-    border-radius: 5px;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .link-abas{
@@ -93,8 +91,6 @@ nav{
 }
 
 .link-abas:hover{
-    text-decoration: none;
-    color: black;
     font-size: 40px;
     transition: 250ms;
 }
@@ -106,7 +102,7 @@ nav{
 
 .abas div{
     display: none;
-    border: 3px solid rgba(177, 166, 166, 0.384);
+    border: 2px solid rgba(255, 255, 255, 0.3);
     font-size: 30px; 
     border-radius: 20px;
     padding: 10px;
