@@ -39,6 +39,9 @@ header{
     gap: 30px;
 }
 
+p img {
+    margin: auto;
+}
 
 #inicio img{
     width: 100px;
