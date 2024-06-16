@@ -122,7 +122,7 @@ nav{
 
 /* media queries */
 
-@media (max-width: 550px){
+@media (max-width: 700px){
     header {
         display: flex;
         flex-wrap: wrap;
