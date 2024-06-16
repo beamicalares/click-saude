@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 * {
     font-family: 'Geologica', sans-serif;
+    box-sizing: border-box;
 }
 
 body{
@@ -23,8 +24,7 @@ header{
 }
 
 #aba1{
-    gap: 15px;
-    background-color:rgb(77, 160, 70) ;
+    background-color:rgb(77, 160, 70);
 }
 
 #aba1 img{
@@ -65,6 +65,7 @@ p img {
     justify-content: center;
     align-items: center;
     padding: 5px;
+    transition: 250ms;
 }
 
 #site:hover{
@@ -81,15 +82,16 @@ nav{
     background-color:#00BFFF;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 1rem;
     margin: 0;
     font-size: 30px;
-    border-radius: 0px 0px 5px 5px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .link-abas{
     text-decoration: none;
     color: white;
+    margin: 6px;
     transition: 250ms;
 }
 
@@ -114,4 +116,82 @@ nav{
 
 .abas div:target{
     display: block;
+}
+
+/* media queries */
+
+@media (max-width: 550px){
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 24px;
+    }
+    .click {
+        display: flex;
+        justify-content: center;
+    }
+    #logo {
+        display: flex;
+        justify-content: flex-start;
+        width: 132px;
+        height: 112px;
+        margin: 16px;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    header h1 a {
+        justify-content: center;
+    }
+    #users {
+        flex-direction: column;
+    }
+    #inicio p {
+        flex-direction: column;
+        font-size: 20px;
+    }
+    #inicio h2 {
+        font-size: 30px;
+    }
+    #aba1 p {
+        font-size: 20px;
+    }
+    #aba2 h1 {
+        font-size: 32px;
+    }
+    #aba2 p {
+        font-size: 20px;
+    }
+    #aba3 h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+    }
+    #aba3 p {
+        display: flex;
+        font-size: 20px;
+    }
+    #aba5 h1 {
+        display: flex;
+        margin: 1% 7.5% 1%;
+        font-size: 32px;
+    }
+    #aba5 p {
+        font-size: 20px;
+    }
+    #aba4 h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+    }
+    #aba4 p {
+        font-size: 20px;
+    }
+    #site b {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
