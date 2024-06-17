@@ -41,7 +41,7 @@ header{
 
 #users p a {
     color: white;
-    text-decoration-none;
+    text-decoration: none;
 }
 
 p img {
