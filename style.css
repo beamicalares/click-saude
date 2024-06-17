@@ -39,6 +39,11 @@ header{
     gap: 30px;
 }
 
+#users p a {
+    color: white;
+    text-decoration-none;
+}
+
 p img {
     margin: auto;
 }
