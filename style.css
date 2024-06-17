@@ -71,17 +71,6 @@ p img {
     justify-content: center;
     align-items: center;
     padding: 5px;
-    transition: 250ms;
-}
-
-#site:hover{
-    color: black;
-    transition: 250ms;
-}
-
-#site:visited{
-    color: white;
-    transition: 250ms;
 }
 
 nav{
