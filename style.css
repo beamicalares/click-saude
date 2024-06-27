@@ -71,6 +71,7 @@ p img {
     justify-content: center;
     align-items: center;
     padding: 5px;
+    transition: 250ms;
 }
 #site:hover {
     transform: scale(1.05);
