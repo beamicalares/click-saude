@@ -72,6 +72,9 @@ p img {
     align-items: center;
     padding: 5px;
 }
+#site:hover {
+    transform: scale(1.05);
+}
 
 nav{
     background-color:#00BFFF;
