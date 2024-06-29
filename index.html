@@ -15,7 +15,7 @@
             <div class="click"> 
                 <img src="img/logo.png" id="logo" alt="Logo click saúde" />
                 <h1>
-                    <a id="easter-egg" onclick="mouse.play();">CLICK</a> SAÚDE
+                    <a id="easter-egg" onclick="tocarMouse()">CLICK</a> SAÚDE
                 </h1>  
             </div>
         </header>
@@ -89,8 +89,11 @@
         </div>
 
         <script type="text/javascript">
-            const mouse = new Audio();
-            mouse.src = "sound/mouse-click.wav";
+            function tocarMouse() {
+                const mouse = new Audio();
+                mouse.src = "sound/mouse-click.mp3";
+                mouse.play();
+            }
         </script>
     </body>
 </html>
